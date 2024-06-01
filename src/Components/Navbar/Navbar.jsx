@@ -3,9 +3,10 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
 const links = <>
-
+<li><NavLink to='/'>Home</NavLink></li>
 <li><NavLink to='addCoffe'>ADD Coffe</NavLink></li>
 <li><NavLink to='updateCoffe'>Update Coffe</NavLink></li>
+
 
 
 </>
@@ -24,7 +25,7 @@ const links = <>
       {links}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Coffe Hub</a>
+    <a className="btn btn-ghost text-xl rancho ">Coffe Hub</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
